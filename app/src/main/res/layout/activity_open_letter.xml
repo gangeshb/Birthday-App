@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:background="@drawable/gradient_6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="22dp"
+            android:textColor="#2c178a"
+            android:id="@+id/text11"
+            android:background="#dcd1d1"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:text="Mahveen... hmne actually kuch advices diye, but yahan kuch points mention karenge.. which you should be beware of... ��"
+            android:fontFamily="@font/baloo" />
+
+        <TextView
+            android:textSize="22dp"
+            android:textColor="#000000"
+            android:id="@+id/text12"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text11"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:text="1. Don&apos;t ever trust a stranger blind-foldedly, maintain privacy... don&apos;t tell about your life to everyone ��"
+            android:fontFamily="sans-serif" />
+
+        <!-- Continue adding other TextView components with appropriate layout_below attributes -->
+
+        <TextView
+            android:textSize="22dp"
+            android:textColor="#000000"
+            android:id="@+id/text23"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text12"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:text="10. accha lagega ��"
+            android:fontFamily="sans-serif" />
+    </RelativeLayout>
+</ScrollView>

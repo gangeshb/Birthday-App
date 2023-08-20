@@ -1,0 +1,41 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:background="@drawable/gradient_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="24dp"
+            android:textColor="#2c178a"
+            android:id="@+id/text1"
+            android:background="#dcd1d1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:text="Q) Who is Ajay ? 🤔"
+            android:fontFamily="@font/baloo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="2dp"
+            android:text="For someone.. he is a great friend, for someone he is an astute mentor, for someone he is an amazing son/brother while for many he is an awesome guy to look up to 🙌. Life me kuch bhi issue ho, he doesn't lose his calm.. tabhi har koi aapke pass aate hain coz we know aap bina judge kiye help karoge. Apart from this, you are hands down a great athlete 🏃 who is very competitive in every sphere of life ❤️ And the best part, you are always open to discussing almost everything. Chahe woh cricket ho, marvel series ho, technology ho ya phir sport, and believe me those discussions are very insightful 💯 And to add a cherry on top of this.. he constantly seeks to better himself, setting an example for all of us to follow 🙌 .. your pursuit of knowledge is insatiable, and you are always ready to share what you have learned to help others grow alongside you ❤️"
+            android:fontFamily="@font/roboto"
+            android:layout_below="@id/text1"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text11"
+        android:textSize="30dp"
+        android:textColor="#edd81c"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="2dp"
+        android:text="SORRY...SORRY...SORRY !!"
+        android:fontFamily="@font/baloo"/>
+
+    <TextView
+        android:id="@+id/text12"
+        android:textSize="20dp"
+        android:textColor="#eeefeee8"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text11"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="2dp"
+        android:text="Aapko block karne ka main reason yeh tha ki application pe kaam kar saku and direct isko as a surprise present kar saku.\10Waise maaf kar dena bhaiyya,aage se aisa block karne wali childish harkate nahi karunga.\10Waise 2021 ki surprise kaisi lagi,batana jaroor.��"
+        android:fontFamily="@font/baloo"/>
+
+</RelativeLayout>

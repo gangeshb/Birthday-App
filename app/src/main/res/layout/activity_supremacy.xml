@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:background="@drawable/gradient_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="22dp"
+        android:textColor="#351C9F"
+        android:id="@+id/text11"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="2dp"
+        android:text="Hi"
+        android:fontFamily="@font/baloo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:textSize="22dp"
+        android:textColor="#ff0707"
+        android:id="@+id/text12"
+        android:background="#dcd1d1"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="2dp"
+        android:text="Kya"
+        android:fontFamily="@font/baloo"
+        android:layout_below="@+id/text11"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:id="@+id/text13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="2dp"
+        android:text="hey"
+        android:fontFamily="sans-serif"
+        android:layout_below="@+id/text12"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:id="@+id/text14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="2dp"
+        android:text="hey"
+        android:fontFamily="sans-serif"
+        android:layout_below="@+id/text13"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+

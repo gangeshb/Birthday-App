@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:background="@drawable/gradient_5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text11"
+            android:textSize="22dp"
+            android:textColor="#2c178a"
+            android:background="#dcd1d1"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:text="Lets walk you through the dreams,which indeed would turn into reality one day.❤"
+            android:fontFamily="@font/baloo"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/text12"
+            android:textSize="22dp"
+            android:textColor="#ff0707"
+            android:background="#dcd1d1"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:text="1. Bestfriend"
+            android:fontFamily="@font/baloo"
+            android:layout_below="@+id/text11"/>
+
+        <ImageView
+            android:id="@+id/image11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_below="@+id/text12"
+            app:srcCompat="@drawable/best_friend"/>
+
+        <TextView
+            android:id="@+id/text13"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="2dp"
+            android:text="Mahveen... you will find a friend in your life very soon, who will just listen to everything you say, who will guide you in your bad times and would celebrate your best times too. He/she would never get bore of you, and inshallah you will find that person soon.❤"
+            android:fontFamily="sans-serif"
+            android:layout_below="@+id/image11"/>
+
+        <!-- Continue adding the remaining TextView and ImageView components below -->
+
+        <!-- TextView and ImageView for "2. Old-age home" -->
+
+        <!-- TextView and ImageView for "3. Orphan-age" -->
+
+        <!-- TextView and ImageView for "4. Hajj (Visiting Mecca)" -->
+
+        <!-- TextView and ImageView for "5. Perfect life-partner" -->
+
+        <TextView
+            android:id="@+id/text14"
+            android:textSize="22dp"
+            android:textColor="#ff0707"
+            android:background="#dcd1d1"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:text="2. Old-age home"
+            android:fontFamily="@font/baloo"
+            android:layout_below="@+id/text13"/>
+
+        <ImageView
+            android:id="@+id/image12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_below="@+id/text14"
+            app:srcCompat="@drawable/old_age"/>
+
+        <TextView
+            android:id="@+id/text15"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="2dp"
+            android:text="This indeed is quite pleasing to know, that in the modern world, people still want to visit old-age homes to help people cherish their lives. Commendable!!\nHmari yahi dua hai ki tumhara yeh wish jald pura ho... and kisi ke happiness ka reason bano.❤"
+            android:fontFamily="sans-serif"
+            android:layout_below="@+id/image12"/>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:background="@drawable/gradient_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="24dp"
+            android:textColor="#2c178a"
+            android:id="@+id/text10"
+            android:background="#dcd1d1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:text="Error 404...\10Video Not Found ��"
+            android:fontFamily="@font/baloo"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/text20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="2dp"
+            android:text="Kalim sir ne dhokha de dia �� tareef ke liye do shab nahi kahe Kolim vai ne.. ��\10Anyways kindly skip to next set of messages. "
+            android:fontFamily="@font/roboto"
+            android:layout_below="@+id/text10"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+</ScrollView>

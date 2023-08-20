@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:background="@drawable/background_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="22dp"
+        android:textColor="#f1ca06"
+        android:id="@+id/text11"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="2dp"
+        android:text="Mahveen... jo tumhare genuine friends hain na, unko kabhi nahi khona.\10Bhale hi tumhari fight ho jaye, but try karna ki issues ek time ke bad resolve ho jaye and jyada der na ho.\10Iska yeh mtlb nahi ki unki galat baat pe bhi haan kar do, aisa nahi karna...\10Try to differentiate between fake and genuine people."
+        android:fontFamily="@font/baloo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

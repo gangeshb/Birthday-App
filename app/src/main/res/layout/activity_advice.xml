@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:paddingLeft="5dp"
+            android:text="Few advices that we'd like to give.."
+            android:textColor="#f3ffc107"
+            android:textSize="22dp"
+            android:fontFamily="@font/baloo"
+            />
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text11"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:paddingLeft="5dp"
+            android:text="1. Be selfish for yourself, logo ki care karo... But pehle khud ka socho 😊"
+            android:textColor="#151414"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text12"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:paddingLeft="5dp"
+            android:text="2. Don't worry about past or future, try to live in present.. And be excited for everything that you do 😊"
+            android:textColor="#151414"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text13"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:paddingLeft="5dp"
+            android:text="3. Find ways to be happy, do whatever you like... But make sure, at the end of the day... You become happy 😊"
+            android:textColor="#151414"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text14"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:paddingLeft="5dp"
+            android:text="4. Try to become Mahveen 2.0 who indeed is cheerful, easy going girl and is also the best version of herself. 😊"
+            android:textColor="#151414"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:id="@+id/text16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text15"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:paddingLeft="5dp"
+            android:text="5. Love yourself, if you do so... Life becomes seemingly amazing ❤"
+            android:textColor="#151414"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-black"
+            />
+    </RelativeLayout>
+</ScrollView>
